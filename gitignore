@@ -1,0 +1,16 @@
+#environment files
+venv/
+.venv/
+
+#IDE config files
+.vs/
+.idea/
+
+#output files
+build/
+dist/
+__pychache__/
+
+#Miscellaneous files
+Desktop.ini
+Thumbs.db
