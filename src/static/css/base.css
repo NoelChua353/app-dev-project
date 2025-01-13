@@ -1,0 +1,128 @@
+/* General Body Styling */
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #e3f2fd;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #007bff !important;
+}
+
+.navbar-nav .nav-link {
+    color: #555 !important;
+    font-weight: 500;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #007bff !important;
+}
+
+/* Main Container */
+main.container {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* Cards */
+.card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.card-img-top {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.card-text {
+    color: #555;
+}
+
+/* Buttons */
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+.btn-success {
+    background-color: #28a745;
+    border-color: #28a745;
+}
+
+.btn-success:hover {
+    background-color: #218838;
+    border-color: #1e7e34;
+}
+
+/* Footer */
+footer {
+    background-color: #e3f2fd;
+    padding: 20px 0;
+    text-align: center;
+    color: #555;
+    font-size: 0.875rem;
+}
+
+/* Progress Bar */
+.progress-bar {
+    background-color: #007bff !important;
+}
+
+/* Product Details */
+.product-details img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.product-details h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.product-details p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.5;
+}
+
+/* Utility Classes */
+.mt-4 {
+    margin-top: 1.5rem !important;
+}
+
+.mb-4 {
+    margin-bottom: 1.5rem !important;
+}
+
+.text-center {
+    text-align: center !important;
+}
